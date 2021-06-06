@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NhSI6dM9FNpu0oF0C2jx0tF5OEdrOVijjYBzPNALyH4tigMliKkYuu+KkwW1nO3djWeucyXzOkKqf1NgBlBI7Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aleksey\\source\\repos\\vodwatcher\\vodwatcher\\vodwatcher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aleksey\\.nuget\\packages\\htmlagilitypack\\1.11.33\\htmlagilitypack.1.11.33.nupkg.sha512"
+  ],
+  "logs": []
+}

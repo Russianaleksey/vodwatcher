@@ -1,0 +1,15 @@
+C:\Users\Aleksey\source\repos\vodwatcher\vodwatcher\obj\Debug\netcoreapp3.1\vodwatcher.csprojAssemblyReference.cache
+C:\Users\Aleksey\source\repos\vodwatcher\vodwatcher\obj\Debug\netcoreapp3.1\vodwatcher.AssemblyInfoInputs.cache
+C:\Users\Aleksey\source\repos\vodwatcher\vodwatcher\obj\Debug\netcoreapp3.1\vodwatcher.AssemblyInfo.cs
+C:\Users\Aleksey\source\repos\vodwatcher\vodwatcher\bin\Debug\netcoreapp3.1\vodwatcher.exe
+C:\Users\Aleksey\source\repos\vodwatcher\vodwatcher\bin\Debug\netcoreapp3.1\vodwatcher.deps.json
+C:\Users\Aleksey\source\repos\vodwatcher\vodwatcher\bin\Debug\netcoreapp3.1\vodwatcher.runtimeconfig.json
+C:\Users\Aleksey\source\repos\vodwatcher\vodwatcher\bin\Debug\netcoreapp3.1\vodwatcher.runtimeconfig.dev.json
+C:\Users\Aleksey\source\repos\vodwatcher\vodwatcher\bin\Debug\netcoreapp3.1\vodwatcher.dll
+C:\Users\Aleksey\source\repos\vodwatcher\vodwatcher\bin\Debug\netcoreapp3.1\vodwatcher.pdb
+C:\Users\Aleksey\source\repos\vodwatcher\vodwatcher\obj\Debug\netcoreapp3.1\vodwatcher.dll
+C:\Users\Aleksey\source\repos\vodwatcher\vodwatcher\obj\Debug\netcoreapp3.1\vodwatcher.pdb
+C:\Users\Aleksey\source\repos\vodwatcher\vodwatcher\obj\Debug\netcoreapp3.1\vodwatcher.genruntimeconfig.cache
+C:\Users\Aleksey\source\repos\vodwatcher\vodwatcher\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
+C:\Users\Aleksey\source\repos\vodwatcher\vodwatcher\obj\Debug\netcoreapp3.1\vodwatcher.csproj.CoreCompileInputs.cache
+C:\Users\Aleksey\source\repos\vodwatcher\vodwatcher\obj\Debug\netcoreapp3.1\vodwatcher.csproj.CopyComplete
