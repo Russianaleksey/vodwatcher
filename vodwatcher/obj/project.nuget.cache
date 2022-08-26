@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "NhSI6dM9FNpu0oF0C2jx0tF5OEdrOVijjYBzPNALyH4tigMliKkYuu+KkwW1nO3djWeucyXzOkKqf1NgBlBI7Q==",
+  "dgSpecHash": "cclk+s21IgBkXTJq5ggCRpHy7g+UJYYHFzCdvJBzeW/KR5fp5g70+hriC/5YGwuDyOJSJVE3RUfwaV+opT0Tag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aleksey\\source\\repos\\vodwatcher\\vodwatcher\\vodwatcher.csproj",
+  "projectFilePath": "/Users/alex/Documents/vodwatcher/vodwatcher/vodwatcher.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Aleksey\\.nuget\\packages\\htmlagilitypack\\1.11.33\\htmlagilitypack.1.11.33.nupkg.sha512"
+    "/Users/alex/.nuget/packages/htmlagilitypack/1.11.33/htmlagilitypack.1.11.33.nupkg.sha512",
+    "/Users/alex/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/Users/alex/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/alex/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.28/microsoft.netcore.app.host.osx-x64.3.1.28.nupkg.sha512"
   ],
   "logs": []
 }

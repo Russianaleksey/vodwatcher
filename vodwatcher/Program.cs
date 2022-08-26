@@ -11,33 +11,31 @@ using System.Web;
 
 namespace vodwatcher
 {
-
-    
+    static class Constants 
+    {
+        public static string VLC_PATH = @"C:\ProgramFiles\VideoLAN\VLC\vlc.exe";
+        public static string DEV_URL_PATH = @"https://vod.544146.workers.dev/";
+    }
     class Program
     {
-        private static readonly HttpClient client = new HttpClient();
-        private const string _VLC_PATH = @"C:\ProgramFiles\VideoLAN\VLC\vlc.exe";
-        private const string _DEV_URL_PATH = @"https://vod.544146.workers.dev/";
-        private string _VOD_ID = String.Empty;
-        private string _CALL_PATH = String.Empty;
-
         public static void Main(string[] args)
         {
-            SetCallPath();
-            string vlcUri = GetVlcUri();
-            OpenVlcWithUri(vlcUri);
+            MainAsync().GetAwaiter().GetResult();
         } 
 
-        public static void SetCallPath() 
+        private static async Task MainAsync()
         {
             Console.WriteLine("Enter twitch vod id: ");
-            _VOD_ID = Console.ReadLine();
-            _CALL_PATH = _DEV_URL_PATH + _VOD_ID;
+            string vodId = Console.ReadLine();
+            string callPath = Constants.DEV_URL_PATH + vodId;
+            string vlcUri = await GetVlcUri(callPath);
+            OpenVlcWithUri(vlcUri);
         }
 
-        public static string GetVlcUri()
+        public static async Task<string> GetVlcUri(string callpath)
         {
-            var response = await client.GetByteArrayAsync(_CALL_PATH);
+            HttpClient client = new HttpClient();
+            var response = await client.GetByteArrayAsync(callpath);
             var source = Encoding.GetEncoding("utf-8").GetString(response, 0, response.Length - 1);
             source = WebUtility.HtmlDecode(source);
             HtmlDocument webPageReturned = new HtmlDocument();
@@ -53,8 +51,8 @@ namespace vodwatcher
         public static void OpenVlcWithUri(string path) 
         {
             var VLC = new System.Diagnostics.Process();
-            VLC.StartInfo.FileName = _VLC_PATH;
-            VLC.StartInfo.Arguments = $"-vvv {fullURL}";
+            VLC.StartInfo.FileName = Constants.VLC_PATH;
+            VLC.StartInfo.Arguments = $"-vvv {path}";
             VLC.Start();
         }
     }
